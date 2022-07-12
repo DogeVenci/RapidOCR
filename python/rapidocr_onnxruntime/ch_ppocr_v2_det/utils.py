@@ -299,7 +299,7 @@ class DBPostProcess(object):
                  box_thresh=0.7,
                  max_candidates=1000,
                  unclip_ratio=2.0,
-                 score_mode="fast"
+                 score_mode="fast",
                  use_dilation=False):
         self.thresh = thresh
         self.box_thresh = box_thresh
